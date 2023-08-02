@@ -55,3 +55,11 @@ The developer team will be further split into two sub-teams, each managing a dif
 
 - @furinkapp/backend, responsible for the development of the platform's backend services.
 - @furinkapp/frontend, responsible for the development of the platform's web and mobile applications.
+
+### Communication
+
+As a team, we should maintain good communication with each other. We should use a platform such as Discord or Slack to keep up to date with each other.
+
+### Social Media
+
+It will be beneficial for us if we can receive feedback on the platform as it stands at a given point in the development process. We should begin creating a social media presence on other platforms such as Telegram, Mastodon, BlueSky, X (formerly Twitter...) so we can raise awareness for the platform and to get feedback.
