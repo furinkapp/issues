@@ -38,6 +38,12 @@ For example, a branch implementing a new feature by a developer named John Smith
 
 > **Note:** Changes should never be pushed directly to the `main` branch. This branch is automatically deployed to production, and should only be updated with working code.
 
+### Collaborative Development
+
+If multiple team members are working on the same feature at the same time, they should use their own feature branches, and then merge into a shared `feat/new-feature` branch to track their shared changes. This will help to avoid conflicts when pushing to and from a single feature branch.
+
+For example, if Doug and Harris are both working on a `cat-images` feature, they will work in their personal feature branches, `feat/doug/cat-images` and `feat/harris/cat-images`, then merge their changes into `feat/cat-images`. This can then be reviewed by other team members and merged into `main`.
+
 ### Pull Requests
 
 Developers should open pull requests to the `main` branch when they feel that their feature or fix is close to completion. This allows developers to make use of the automatic CI/CD pipelines built into the majority of the project.
